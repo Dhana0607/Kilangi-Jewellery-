@@ -1,0 +1,62 @@
+<svg width="300" height="300" viewBox="0 0 300 300"
+     xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Outer scalloped circle -->
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#2f4f4f"/>
+      <stop offset="100%" stop-color="#243c3c"/>
+    </radialGradient>
+  </defs>
+
+  <path
+    d="
+    M150 10
+    C162 10 168 22 180 24
+    C192 26 204 18 214 26
+    C224 34 220 48 228 58
+    C236 68 252 70 256 82
+    C260 94 248 104 248 118
+    C248 132 260 142 256 154
+    C252 166 236 168 228 178
+    C220 188 224 202 214 210
+    C204 218 192 210 180 212
+    C168 214 162 226 150 226
+    C138 226 132 214 120 212
+    C108 210 96 218 86 210
+    C76 202 80 188 72 178
+    C64 168 48 166 44 154
+    C40 142 52 132 52 118
+    C52 104 40 94 44 82
+    C48 70 64 68 72 58
+    C80 48 76 34 86 26
+    C96 18 108 26 120 24
+    C132 22 138 10 150 10
+    Z"
+    fill="url(#bg)"
+  />
+
+  <!-- Inner circle -->
+  <circle cx="150" cy="118" r="78" fill="#1f3535"/>
+
+  <!-- Main number -->
+  <text x="150" y="130"
+        text-anchor="middle"
+        font-size="48"
+        font-weight="700"
+        font-family="Arial, Helvetica, sans-serif"
+        fill="#ffffff">
+    925
+  </text>
+
+  <!-- Subtitle -->
+  <text x="150" y="160"
+        text-anchor="middle"
+        font-size="16"
+        font-weight="400"
+        font-family="Arial, Helvetica, sans-serif"
+        fill="#d9e6e6">
+    Sterling Silver
+  </text>
+
+</svg>

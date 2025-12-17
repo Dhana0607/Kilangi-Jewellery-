@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 520">
+
+  <!-- Outer BIS shape with inward drop -->
+  <path
+    d="
+      M300 40
+      L560 300
+      Q580 320 560 340
+      H360
+      L300 300
+      L240 340
+      H40
+      Q20 320 40 300
+      Z
+    "
+    fill="#000"/>
+
+  <!-- Inner triangle (clear spacing) -->
+  <path
+    d="
+      M300 130
+      L430 290
+      H170
+      Z
+    "
+    fill="#fff"/>
+
+  <!-- Central dot -->
+  <circle cx="300" cy="245" r="30" fill="#000"/>
+
+  <!-- Bottom base -->
+  <path
+    d="
+      M140 400
+      Q300 445 460 400
+      L480 380
+      H120
+      Z
+    "
+    fill="#000"/>
+
+  <!-- Sanskrit text -->
+  <text
+    x="300"
+    y="365"
+    text-anchor="middle"
+    font-size="38"
+    font-weight="600"
+    font-family="Noto Serif Devanagari, Mangal, Kohinoor Devanagari, serif"
+    fill="#000">
+    मानकः पथप्रदर्शकः
+  </text>
+
+</svg>
