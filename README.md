@@ -39,7 +39,7 @@ This project focuses on **clean UI, typography, spacing, responsiveness, and sub
 
 Kilangi-Jewellery/
 │
-├── Homepage.html
+├── index.html
 ├── style.css
 ├── script.js
 │
@@ -79,7 +79,7 @@ Kilangi-Jewellery/
    ```bash
    git clone https://github.com/Dhana0607/Kilangi-Jewellery.git
 
-2. Open Homepage.html in the browser.
+2. Open index.html in the browser.
 
 ---
 
